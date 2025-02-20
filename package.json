@@ -1,0 +1,9 @@
+{
+    "name": "ch.kainoo.extplugins.bakery",
+    "version": "1.96.0",
+    "displayName": "Bakery GPU Lightmaper",
+    "description": "Lorem ipsum",
+    "dependencies": {
+        
+    }
+}
