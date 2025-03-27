@@ -1,3 +1,4 @@
+using System.IO;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.SceneManagement;
@@ -8,7 +9,8 @@ public class ftRestorePaddingMenu
     private static void RestorePadding()
     {
         var bakeryRuntimePath = ftLightmaps.GetRuntimePath();
-        var gstorage = AssetDatabase.LoadAssetAtPath(bakeryRuntimePath + "ftGlobalStorage.asset", typeof(ftGlobalStorage)) as ftGlobalStorage;
+        var settingPath = Path.Combine(Application.dataPath, "/Settings/Bakery/");
+        var gstorage = AssetDatabase.LoadAssetAtPath(settingPath + "ftGlobalStorage.asset", typeof(ftGlobalStorage)) as ftGlobalStorage;
 
         if (gstorage == null)
         {

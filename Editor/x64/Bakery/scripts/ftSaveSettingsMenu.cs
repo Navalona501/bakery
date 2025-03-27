@@ -1,3 +1,4 @@
+using System.IO;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.SceneManagement;
@@ -8,6 +9,7 @@ public class ftSaveSettingsMenu
     private static void SaveSettings()
     {
         var bakeryRuntimePath = ftLightmaps.GetRuntimePath();
+        //var settingPath = Path.Combine(Application.dataPath, "/Settings/Bakery/");
         var gstorage = AssetDatabase.LoadAssetAtPath(bakeryRuntimePath + "ftGlobalStorage.asset", typeof(ftGlobalStorage)) as ftGlobalStorage;
 
         if (gstorage == null)
@@ -31,7 +33,8 @@ public class ftSaveSettingsMenu
     private static void LoadSettings()
     {
         var bakeryRuntimePath = ftLightmaps.GetRuntimePath();
-        var gstorage = AssetDatabase.LoadAssetAtPath(bakeryRuntimePath + "ftGlobalStorage.asset", typeof(ftGlobalStorage)) as ftGlobalStorage;
+        var settingPath = Path.Combine(Application.dataPath, "/Settings/Bakery/");
+        var gstorage = AssetDatabase.LoadAssetAtPath(settingPath + "ftGlobalStorage.asset", typeof(ftGlobalStorage)) as ftGlobalStorage;
 
         if (gstorage == null)
         {

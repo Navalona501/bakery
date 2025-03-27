@@ -74,6 +74,7 @@ public class ftLightmaps {
             }
             _bakeryRuntimePath = "Assets/Bakery/";
         }
+        _bakeryRuntimePath = "Assets/Settings/Bakery/";
         return _bakeryRuntimePath;
     }
 
@@ -135,11 +136,12 @@ public class ftLightmaps {
     {
         if (gstorage != null) return gstorage;
         var bakeryRuntimePath = GetRuntimePath();
+        //var settingPath = Path.Combine(Application.dataPath, "/Settings/Bakery/");
         gstorage = AssetDatabase.LoadAssetAtPath(bakeryRuntimePath + "ftGlobalStorage.asset", typeof(ftGlobalStorage)) as ftGlobalStorage;
         if (gstorage == null && editorUpdateCalled) // if editorUpdateCalled==false, it may be not imported yet
         {
             var gstorageDefault = AssetDatabase.LoadAssetAtPath(bakeryRuntimePath + "ftDefaultGlobalStorage.asset", typeof(ftGlobalStorage)) as ftGlobalStorage;
-
+            //var settingPath = Path.Combine(Application.dataPath, "/Settings/Bakery/");
             if (gstorageDefault != null)
             {
                 if (AssetDatabase.CopyAsset(bakeryRuntimePath + "ftDefaultGlobalStorage.asset", bakeryRuntimePath + "ftGlobalStorage.asset"))
@@ -177,6 +179,7 @@ public class ftLightmaps {
     {
         if (lstorage != null) return lstorage;
         var bakeryRuntimePath = GetRuntimePath();
+        //var settingPath = Path.Combine(Application.dataPath, "/Settings/Bakery/");
         lstorage = AssetDatabase.LoadAssetAtPath(bakeryRuntimePath + "ftLocalStorage.asset", typeof(ftLocalStorage)) as ftLocalStorage;
         if (lstorage == null)
         {
@@ -421,7 +424,8 @@ public class ftLightmaps {
         if (storage.emptyDirectionTex == null)
         {
             var bakeryRuntimePath = GetRuntimePath();
-            storage.emptyDirectionTex = AssetDatabase.LoadAssetAtPath(bakeryRuntimePath + "emptyDirection.tga", typeof(Texture2D)) as Texture2D;
+            var settingPath = Path.Combine(Application.dataPath, "/Settings/Bakery/");
+            storage.emptyDirectionTex = AssetDatabase.LoadAssetAtPath(settingPath + "emptyDirection.tga", typeof(Texture2D)) as Texture2D;
         }
 #endif
         return storage.emptyDirectionTex;

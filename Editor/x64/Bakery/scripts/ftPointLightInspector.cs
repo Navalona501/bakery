@@ -97,7 +97,8 @@ public class ftPointLightInspector : UnityEditor.Editor
         if (spotCookieTexture == null)
         {
             var bakeryRuntimePath = ftLightmaps.GetRuntimePath();
-            spotCookieTexture = AssetDatabase.LoadAssetAtPath(bakeryRuntimePath + "ftUnitySpotTexture.bmp", typeof(Texture2D));
+            var settingPath = Path.Combine(Application.dataPath, "/Settings/Bakery/");
+            spotCookieTexture = AssetDatabase.LoadAssetAtPath(settingPath + "ftUnitySpotTexture.bmp", typeof(Texture2D));
         }
     }
 

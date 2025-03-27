@@ -1,0 +1,293 @@
+2025-3-27
+Rendering UV GBuffer for SampleScene_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA6.lz4" 2 0 0 0
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 0 "gi_SampleScene_LMA60.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 0 "gi_SampleScene_LMA61.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 0 "gi_SampleScene_LMA62.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 0 "gi_SampleScene_LMA63.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_final" 1924 16 0 "gi_SampleScene_LMA64.bin" "SampleScene_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "0" "SampleScene_LMA6_final_L0.lz4" "SampleScene_LMA6_final_L1x.lz4" "SampleScene_LMA6_final_L1y.lz4" "SampleScene_LMA6_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA6_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA6_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1z.lz4"
+2025-3-27
+Rendering UV GBuffer for SampleScene_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA6.lz4" 2 0 0 0
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 0 "gi_SampleScene_LMA60.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 0 "gi_SampleScene_LMA61.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 0 "gi_SampleScene_LMA62.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_diffuse" 4 16 0 "gi_SampleScene_LMA63.bin" "SampleScene_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_final" 1924 16 0 "gi_SampleScene_LMA64.bin" "SampleScene_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA6_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "0" "SampleScene_LMA6_final_L0.lz4" "SampleScene_LMA6_final_L1x.lz4" "SampleScene_LMA6_final_L1y.lz4" "SampleScene_LMA6_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA6_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA6_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA6_final_L1z.lz4"
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+Total cache size 267976656
+Total cache size after purge 267976656
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+Total cache size 267976656
+Total cache size after purge 267976656
+C:\build\output\Unity-Technologies\mono\mono\eglib\gpath.c:115: assertion 'filename != NULL' failed
+
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA30.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA31.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA32.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA13.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA33.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA23.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA14.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_final" 1924 16 3 "gi_SampleScene_LMA34.bin" "SampleScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA24.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "3" "SampleScene_LMA3_final_L0.lz4" "SampleScene_LMA3_final_L1x.lz4" "SampleScene_LMA3_final_L1y.lz4" "SampleScene_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LM0_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LM0_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA1_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA1_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA3_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA3_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA2_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA2_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4"
+Total cache size 267976656
+Total cache size after purge 267976656
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA30.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA31.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA32.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA13.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA33.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA23.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA14.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_final" 1924 16 3 "gi_SampleScene_LMA34.bin" "SampleScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA24.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "3" "SampleScene_LMA3_final_L0.lz4" "SampleScene_LMA3_final_L1x.lz4" "SampleScene_LMA3_final_L1y.lz4" "SampleScene_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LM0_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LM0_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA1_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA1_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA3_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA3_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA2_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA2_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4"
+abort_threads: Failed aborting id: 0000000000004CA4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000004CA4, mono_thread_manage will ignore it
+
+2025-3-27
+Rendering UV GBuffer for SampleScene_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for SampleScene_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\Krepe501\AppData\Local\Temp\frender" "uvpos_SampleScene_LMA2.lz4" 2 0 2 0
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX addmul "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM00.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA10.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA30.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA20.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM01.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA11.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA31.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA21.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM02.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA12.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA32.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA22.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_diffuse" 4 16 0 "gi_SampleScene_LM03.bin" "SampleScene_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_diffuse" 4 16 1 "gi_SampleScene_LMA13.bin" "SampleScene_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_diffuse" 4 16 3 "gi_SampleScene_LMA33.bin" "SampleScene_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_diffuse" 4 16 2 "gi_SampleScene_LMA23.bin" "SampleScene_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_final" 1924 16 0 "gi_SampleScene_LM04.bin" "SampleScene_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_final" 1924 16 1 "gi_SampleScene_LMA14.bin" "SampleScene_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_final" 1924 16 3 "gi_SampleScene_LMA34.bin" "SampleScene_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgish "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_final" 1924 16 2 "gi_SampleScene_LMA24.bin" "SampleScene_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LM0_final_" 4 0 0 shcomp_0.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4" 256 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "0" "SampleScene_LM0_final_L0.lz4" "SampleScene_LM0_final_L1x.lz4" "SampleScene_LM0_final_L1y.lz4" "SampleScene_LM0_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA1_final_" 4 0 1 shcomp_1.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "1" "SampleScene_LMA1_final_L0.lz4" "SampleScene_LMA1_final_L1x.lz4" "SampleScene_LMA1_final_L1y.lz4" "SampleScene_LMA1_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA3_final_" 4 0 3 shcomp_3.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "3" "SampleScene_LMA3_final_L0.lz4" "SampleScene_LMA3_final_L1x.lz4" "SampleScene_LMA3_final_L1y.lz4" "SampleScene_LMA3_final_L1z.lz4"
+Running ftraceRTX addsh "C:\Users\Krepe501\AppData\Local\Temp\frender" "SampleScene_LMA2_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN s "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4" 128 0
+Running seamfixer "C:\Users\Krepe501\AppData\Local\Temp\frender" "2" "SampleScene_LMA2_final_L0.lz4" "SampleScene_LMA2_final_L1x.lz4" "SampleScene_LMA2_final_L1y.lz4" "SampleScene_LMA2_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LM0_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LM0_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LM0_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA1_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA1_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA1_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA3_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA3_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA3_final_L1z.lz4"
+Running halffloat2hdr "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L0.lz4" "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA2_L0.hdr" 1024
+Running combineSH  "C:/Users/Krepe501/Documents/GitHub/TestMesh2/testMesh2/Assets/Scenes/SampleScene/SampleScene_LMA2_L1.tga" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1x.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1y.lz4" "C:\Users\Krepe501\AppData\Local\Temp\frender/SampleScene_LMA2_final_L1z.lz4"
