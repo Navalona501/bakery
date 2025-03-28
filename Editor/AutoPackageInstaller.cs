@@ -16,9 +16,10 @@ public class AutoPackageInstaller
     static AutoPackageInstaller()
     {
         // Reset flag on Unity startup
-        isInstalled = false;
+        //isInstalled = false;
 
         // Check if package files exist
+        
         if (File.Exists(CheckFilePath))
         {
             isInstalled = true;
@@ -29,6 +30,7 @@ public class AutoPackageInstaller
             Debug.Log("Package not installed. Searching for the .unitypackage...");
             FindAndImportPackage();
         }
+        isInstalled = true;
     }
 
     private static void FindAndImportPackage()
